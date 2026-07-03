@@ -1,0 +1,1615 @@
+[
+  {
+    "id": "1783015681624",
+    "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3",
+    "title": "explain node",
+    "messages": [
+      {
+        "role": "user",
+        "content": "explain node"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know. However it seems like it would be relevant for the context provided, the answer would be:\n\nNode.js is not a full-stack JavaScript solution, but rather a way to run your JavaScript outside of a web browser. Node.js allows you to run JavaScript on the server-side by leveraging the Google V8 JavaScript engine to run scripts on a runtime environment.",
+        "documents": [
+          {
+            "pageContent": "Luckily\tI\twrote\ta\tfree\tebook\tthat\texplains\tall\tthose\ttopics,\tand\tit's\tcalled\tJavaScript\nFundamentals.\tIt's\tthe\tmost\tcompact\tresource\tyou'll\tfind\tto\tlearn\tall\tof\tthis.\nYou\tcan\tfind\tthe\tebook\tat\tthe\tbottom\tof\tthis\tpage:\thttps://flaviocopes.com/javascript/.\nHow\tmuch\tJavaScript\tdo\tyou\tneed\tto\tknow\tto\tuse\tNode?\n16",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 16,
+                "lines": {
+                  "from": 1,
+                  "to": 5
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "0c78a5d8-8588-4238-aeb7-1b9dae3b2c4b"
+          },
+          {
+            "pageContent": "A\tbrief\thistory\tof\tNode\nA\tlook\tback\ton\tthe\thistory\tof\tNode.js\tfrom\t2009\tto\ttoday\nBelieve\tit\tor\tnot,\tNode.js\tis\tjust\t9\tyears\told.\nIn\tcomparison,\tJavaScript\tis\t23\tyears\told\tand\tthe\tweb\tas\twe\tknow\tit\t(after\tthe\tintroduction\tof\nMosaic)\tis\t25\tyears\told.\n9\tyears\tis\tsuch\ta\tlittle\tamount\tof\ttime\tfor\ta\ttechnology,\tbut\tNode.js\tseems\tto\thave\tbeen\naround\tforever.\nI've\thad\tthe\tpleasure\tto\twork\twith\tNode\tsince\tthe\tearly\tdays\twhen\tit\twas\tjust\t2\tyears\told,\tand\ndespite\tthe\tlittle\tinformation\tavailable,\tyou\tcould\talready\tfeel\tit\twas\ta\thuge\tthing.\nIn\tthis\tpost,\tI\twant\tto\tdraw\tthe\tbig\tpicture\tof\tNode\tin\tits\thistory,\tto\tput\tthings\tin\tperspective.\nA\tlittle\tbit\tof\thistory\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\nA\tlittle\tbit\tof\thistory\nJavaScript\tis\ta\tprogramming\tlanguage\tthat\twas\tcreated\tat\tNetscape\tas\ta\tscripting\ttool\tto\nmanipulate\tweb\tpages\tinside\ttheir\tbrowser,\tNetscape\tNavigator.\nPart\tof\tthe\tbusiness\tmodel\tof\tNetscape\twas\tto\tsell\tWeb\tServers,\twhich\tincluded\tan",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 11,
+                "lines": {
+                  "from": 1,
+                  "to": 25
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "7f11d18b-7a4c-4f4c-8f2e-fbb482c91455"
+          },
+          {
+            "pageContent": "The\tNode.js\tHandbook\nThe\tNode\tHandbook\tfollows\tthe\t80/20\trule:\tlearn\tin\t20%\tof\tthe\ttime\tthe\t80%\tof\ta\ttopic.\nI\tfind\tthis\tapproach\tgives\ta\twell-rounded\toverview.\tThis\tbook\tdoes\tnot\ttry\tto\tcover\teverything\nunder\tthe\tsun\trelated\tto\tNode.\tIf\tyou\tthink\tsome\tspecific\ttopic\tshould\tbe\tincluded,\ttell\tme.\nYou\tcan\treach\tme\ton\tTwitter\t@flaviocopes.\nI\thope\tthe\tcontents\tof\tthis\tbook\twill\thelp\tyou\tachieve\twhat\tyou\twant:\tlearn\tthe\tbasics\nNode.js.\nThis\tbook\tis\twritten\tby\tFlavio.\tI\tpublish\tweb\tdevelopment\ttutorials\tevery\tday\ton\tmy\twebsite\nflaviocopes.com.\nEnjoy!\nThe\tNode.js\tHandbook\n5",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 5,
+                "lines": {
+                  "from": 1,
+                  "to": 12
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "055e0723-7553-46d1-8f31-cb35d55fb224"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "explain node.js"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the provided context:\n\nNode.js is a runtime environment for JavaScript that runs on the server. It's built on top of the Google Chrome V8 JavaScript engine, and it's mainly used to create web servers - but it's not limited to that. Node.js is open source, cross-platform, and since its introduction in 2009, it got hugely popular and now plays a significant role in the web development scene.\n\nSome of the best features of Node.js include:\n\n- Fast execution\n- Simple and lightweight\n- Runs on JavaScript\n- Uses the V8 JavaScript engine\n- Asynchronous platform that doesn't block threads\n- A huge number of libraries available through the npm (Node Package Manager)\n\nNode.js allows developers to write server-side JavaScript applications, and its popularity is indicated by the large number of GitHub stars, with over 46,000 stars.\n\nAn example of a simple Node.js application is a web server, which can be created using the following code:\n```javascript\nconst http = require('http')\nconst hostname = '127.0.0.1'\nconst port = 3000\nconst server = http.createServer((req, res) => {\n  res.statusCode = 200\n  res.setHeader('Content-Type', 'text/plain')\n  res.end('Hello World\\n')\n})\nserver.listen(port, hostname, () => {\n  console.log(`Server running at http://${hostname}:${port}/`)\n})\n```",
+        "documents": [
+          {
+            "pageContent": "What\tchanges\tis\tthe\tecosystem.\nIn\tthe\tbrowser,\tmost\tof\tthe\ttime\twhat\tyou\tare\tdoing\tis\tinteracting\twith\tthe\tDOM,\tor\tother\tWeb\nPlatform\tAPIs\tlike\tCookies.\tThose\tdo\tnot\texist\tin\tNode,\tof\tcourse.\tYou\tdon't\thave\tthe\n\tdocument\t,\t\twindow\t\tand\tall\tthe\tother\tobjects\tthat\tare\tprovided\tby\tthe\tbrowser.\nAnd\tin\tthe\tbrowser,\twe\tdon't\thave\tall\tthe\tnice\tAPIs\tthat\tNode.js\tprovides\tthrough\tits\tmodules,\nlike\tthe\tfilesystem\taccess\tfunctionality.\nAnother\tbig\tdifference\tis\tthat\tin\tNode.js\tyou\tcontrol\tthe\tenvironment.\tUnless\tyou\tare\tbuilding\nan\topen\tsource\tapplication\tthat\tanyone\tcan\tdeploy\tanywhere,\tyou\tknow\twhich\tversion\tof\nNode\tyou\twill\trun\tthe\tapplication\ton.\tCompared\tto\tthe\tbrowser\tenvironment,\twhere\tyou\tdon't\nget\tthe\tluxury\tto\tchoose\twhat\tbrowser\tyour\tvisitors\twill\tuse,\tthis\tis\tvery\tconvenient.\nThis\tmeans\tthat\tyou\tcan\twrite\tall\tthe\tmodern\tES6-7-8-9\tJavaScript\tthat\tyour\tNode\tversion\nsupports.\nSince\tJavaScript\tmoves\tso\tfast,\tbut\tbrowsers\tcan\tbe\ta\tbit\tslow\tand\tusers\ta\tbit\tslow\tto",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 17,
+                "lines": {
+                  "from": 14,
+                  "to": 26
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "00507c83-7151-4013-9776-ed0791ecbff3"
+          },
+          {
+            "pageContent": "Introduction\tto\tNode\nThis\tpost\tis\ta\tgetting\tstarted\tguide\tto\tNode.js,\tthe\tserver-side\tJavaScript\nruntime\tenvironment.\tNode.js\tis\tbuilt\ton\ttop\tof\tthe\tGoogle\tChrome\tV8\nJavaScript\tengine,\tand\tit's\tmainly\tused\tto\tcreate\tweb\tservers\t-\tbut\tit's\tnot\nlimited\tto\tthat\nOverview\nThe\tbest\tfeatures\tof\tNode.js\nFast\nSimple\nJavaScript\nV8\nAsynchronous\tplatform\nA\thuge\tnumber\tof\tlibraries\nAn\texample\tNode.js\tapplication\nNode.js\tframeworks\tand\ttools\nOverview\nNode.js\tis\ta\truntime\tenvironment\tfor\tJavaScript\tthat\truns\ton\tthe\tserver.\nNode.js\tis\topen\tsource,\tcross-platform,\tand\tsince\tits\tintroduction\tin\t2009,\tit\tgot\thugely\tpopular\nand\tnow\tplays\ta\tsignificant\trole\tin\tthe\tweb\tdevelopment\tscene.\tIf\tGitHub\tstars\tare\tone\npopularity\tindication\tfactor,\thaving\t46000+\tstars\tmeans\tbeing\tvery\tpopular.\nIntroduction\tto\tNode\n6",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 6,
+                "lines": {
+                  "from": 1,
+                  "to": 22
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "b579d4bc-691e-4fd6-a0a6-18f6f071be48"
+          },
+          {
+            "pageContent": "When\tNode.js\tneeds\tto\tperform\tan\tI/O\toperation,\tlike\treading\tfrom\tthe\tnetwork,\taccess\ta\ndatabase\tor\tthe\tfilesystem,\tinstead\tof\tblocking\tthe\tthread\tNode.js\twill\tsimply\tresume\tthe\noperations\twhen\tthe\tresponse\tcomes\tback,\tinstead\tof\twasting\tCPU\tcycles\twaiting.\nA\thuge\tnumber\tof\tlibraries\n\tnpm\t\twith\tits\tsimple\tstructure\thelped\tthe\tecosystem\tof\tnode.js\tproliferate\tand\tnow\tthe\tnpm\nregistry\thosts\talmost\t500.000\topen\tsource\tpackages\tyou\tcan\tfreely\tuse.\nAn\texample\tNode.js\tapplication\nThe\tmost\tcommon\texample\tHello\tWorld\tof\tNode.js\tis\ta\tweb\tserver:\nconst\thttp\t=\trequire('http')\nconst\thostname\t=\t'127.0.0.1'\nconst\tport\t=\t3000\nconst\tserver\t=\thttp.createServer((req,\tres)\t=>\t{\n\t\tres.statusCode\t=\t200\n\t\tres.setHeader('Content-Type',\t'text/plain')\n\t\tres.end('Hello\tWorld\\n')\n})\nserver.listen(port,\thostname,\t()\t=>\t{\n\t\tconsole.log(`Server\trunning\tat\thttp://${hostname}:${port}/`)\n})\nTo\trun\tthis\tsnippet,\tsave\tit\tas\ta\t\tserver.js\t\tfile\tand\trun\t\tnode\tserver.js\t\tin\tyour\tterminal.",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 9,
+                "lines": {
+                  "from": 1,
+                  "to": 20
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "42242556-ce4d-48e4-8b07-d79649af471d"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "explain callbacks"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the provided context:\n\nCallbacks are a fundamental part of Node.js. A callback function is a function passed as an argument to another function, which is then invoked inside the other function. In the context of Node.js, callbacks are used to handle asynchronous operations, such as I/O operations (like reading or writing files, network requests, etc.).\n\nWhen an operation is complete, Node.js executes a specific function, which is the callback function. The callback function takes a single argument, which is the result of the operation.\n\nIn Node.js, callbacks are used extensively for handling asynchronous operations, such as:\n\n- Reading and writing files\n- Making network requests\n- Database operations\n- Timers\n\nCallbacks are also used to interact with the Event Loop, which is a mechanism that Node.js uses to execute functions asynchronously.\n\nNode.js provides two main types of callbacks:\n\n- Callback functions\n- Async functions (such as `setTimeout` and `setImmediate`)\n\nFor example, the following code uses a callback to read a file:\n```javascript\nconst fs = require('fs')\n\nfs.readFile('file.txt', (err, data) => {\n  if (err) {\n    console.error(err)\n  } else {\n    console.log(data)\n  }\n})\n```\nIn this example, the `readFile` function takes a callback as an argument. When the operation is complete, the callback function is executed with the result of the operation.",
+        "documents": [
+          {
+            "pageContent": "fundamental\tpart\tof\tNode.js:\nAsynchronous\tprogramming\tand\tcallbacks\nTimers\nPromises\nAsync\tand\tAwait\nClosures\nThe\tEvent\tLoop\nHow\tmuch\tJavaScript\tdo\tyou\tneed\tto\tknow\tto\tuse\tNode?\n15",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 15,
+                "lines": {
+                  "from": 28,
+                  "to": 36
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "1b2de8de-f65e-4ef8-98b7-2b25b17776e9"
+          },
+          {
+            "pageContent": "setImmediate\nThe\tNode.js\tsetImmediate\tfunction\tinteracts\twith\tthe\tevent\tloop\tin\ta\tspecial\nway\nWhen\tyou\twant\tto\texecute\tsome\tpiece\tof\tcode\tasynchronously,\tbut\tas\tsoon\tas\tpossible,\tone\noption\tis\tto\tuse\tthe\t\tsetImmediate()\t\tfunction\tprovided\tby\tNode.js:\nsetImmediate(()\t=>\t{\n\t\t//run\tsomething\n})\nAny\tfunction\tpassed\tas\tthe\tsetImmediate()\targument\tis\ta\tcallback\tthat's\texecuted\tin\tthe\tnext\niteration\tof\tthe\tevent\tloop.\nHow\tis\t\tsetImmediate()\t\tdifferent\tfrom\t\tsetTimeout(()\t=>\t{},\t0)\t\t(passing\ta\t0ms\ttimeout),\tand\nfrom\t\tprocess.nextTick()\t?\nA\tfunction\tpassed\tto\t\tprocess.nextTick()\t\tis\tgoing\tto\tbe\texecuted\ton\tthe\tcurrent\titeration\tof\tthe\nevent\tloop,\tafter\tthe\tcurrent\toperation\tends.\tThis\tmeans\tit\twill\talways\texecute\tbefore\n\tsetTimeout\t\tand\t\tsetImmediate\t.\nA\t\tsetTimeout()\t\tcallback\twith\ta\t0ms\tdelay\tis\tvery\tsimilar\tto\t\tsetImmediate()\t.\tThe\texecution\norder\twill\tdepend\ton\tvarious\tfactors,\tbut\tthey\twill\tbe\tboth\trun\tin\tthe\tnext\titeration\tof\tthe\tevent\nloop.\nsetImmediate\n95",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 95,
+                "lines": {
+                  "from": 1,
+                  "to": 20
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "8603d5d3-181f-4458-a6d5-69d12e87e26f"
+          },
+          {
+            "pageContent": "with\ta\tsynchronous\tprogramming\tmodel?\nThe\tanswer\twas\tin\tits\tenvironment.\tThe\tbrowser\tprovides\ta\tway\tto\tdo\tit\tby\tproviding\ta\tset\tof\nAPIs\tthat\tcan\thandle\tthis\tkind\tof\tfunctionality.\nMore\trecently,\tNode.js\tintroduced\ta\tnon-blocking\tI/O\tenvironment\tto\textend\tthis\tconcept\tto\tfile\naccess,\tnetwork\tcalls\tand\tso\ton.\nCallbacks\nCallbacks\n101",
+            "metadata": {
+              "source": "uploads\\1783015630979-464549004-nodejs.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.4",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Title": "Node.js Handbook",
+                  "Author": "Flavio Copes",
+                  "Creator": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "Producer": "calibre 3.20.0 [https://calibre-ebook.com]",
+                  "CreationDate": "D:20180828065606+00'00'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "dc:title": "Node.js Handbook",
+                    "dc:description": "",
+                    "dc:creator": "Flavio Copes",
+                    "dc:publisher": "GitBook",
+                    "dc:subject": "",
+                    "dc:language": "en",
+                    "xmp:metadatadate": "2018-08-28T08:56:06.885286+02:00",
+                    "calibre:timestamp": "2018-08-28T08:55:47.237173+02:00"
+                  }
+                },
+                "totalPages": 189
+              },
+              "loc": {
+                "pageNumber": 101,
+                "lines": {
+                  "from": 26,
+                  "to": 33
+                }
+              },
+              "filename": "nodejs.pdf",
+              "userId": "user_3BqW9uFJYZBKnsYIj0p0cByQaE3"
+            },
+            "id": "776378a0-bb46-431b-a8f7-d5cbb9d49afc"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "what are callbacks"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the provided context:\n\nCallbacks are a fundamental part of Node.js. A callback function is a function passed as an argument to another function, which is then invoked inside the other function. In the context of Node.js, callbacks are used to handle asynchronous operations, such as I/O operations (like reading or writing files, network requests, etc.).\n\nWhen an operation is complete, Node.js executes a specific function, which is the callback function. The callback function takes a single argument, which is the result of the operation.\n\nIn Node.js, callbacks are used extensively for handling asynchronous operations, such as:\n\n- Reading and writing files\n- Making network requests\n- Database operations\n- Timers\n\nCallbacks are also used to interact with the Event Loop, which is a mechanism that Node.js uses to execute functions asynchronously.\n\nNode.js provides two main types of callbacks:\n\n- Callback functions\n- Async functions (such as `setTimeout` and `setImmediate`)\n\nFor example, the following code uses a callback to read a file:\n```javascript\nconst fs = require('fs')\n\nfs.readFile('file.txt', (err, data) => {\n  if (err) {\n    console.error(err)\n  } else {\n    console.log(data)\n  }\n})\n```\nIn this example, the `readFile` function takes a callback as an argument. When the operation is complete, the callback function is executed with the result of the operation.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "give me definition of callback"
+      },
+      {
+        "role": "assistant",
+        "content": "A callback is a function passed as an argument to another function, which is then invoked inside the other function.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "explain fs module"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know the answer because no relevant context was found in the uploaded documents. Please ensure you have uploaded documents containing this information and that they are indexed.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "explain fs"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know the answer because no relevant context was found in the uploaded documents. Please ensure you have uploaded documents containing this information and that they are indexed.",
+        "documents": []
+      }
+    ],
+    "createdAt": "2026-07-02T18:08:01.624Z"
+  },
+  {
+    "id": "1783015911465",
+    "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8",
+    "title": "where is ollama used",
+    "messages": [
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "Mohammed Sofiyan \n+91 9032007604 ◇ msofiyan0077@gmail.com ◇ LinkedIn ◇ GitHub ◇ CodeChef ◇ LeetCode \n \nEDUCATION \n \nVellore Institute Of Technology Chennai                                                                                                                                                  Aug 2023 – Present \nB. Tech Computer Science and Engineering                                                                                                                                                                                               CGPA: 8.71 \nCoursework: Operating Systems, Computer Networks, Data Structures and Algorithms, DBMS \nJEE Mains 2023                                                                                                                                                                                                                 Percentile: 94.6",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 1,
+                  "to": 9
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "c8df970b-2f21-4422-9331-9cb7d64e61a0"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "In what projects or work experience did I use Ollama?"
+      },
+      {
+        "role": "assistant",
+        "content": "You used Ollama in the Software Developer Intern experience, where you \"integrated Ollama\" to establish a scalable, cost-free local agentic coding platform.",
+        "documents": [
+          {
+            "pageContent": "Technologies/Frameworks: React.js, Next.js, Node.js, Express.js, Django, FastAPI , TensorFlow, Pandas, NumPy \nDatabases: MongoDB, PostgreSQL, MySQL, Firebase, Qdrant, ChromaDB \nCloud: AWS \nVersion Control and other Tools: Git, GitHub, Postman, Power BI, REST APIs, Tableau \nSoft Skills: Leadership, Event Management, Public Speaking, Team Collaboration",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 57,
+                  "to": 61
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "c8e0af86-113b-4fc6-9de8-3b6d535964f5"
+          },
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "• Lead, CodeChef VIT Chennai Chapter: Organized flagship hackathons, technical workshops, and hosted Abdul Bari, driving community \nengagement and technical learning. \n• 100% Attendance Award, University Day 2025: Recognized for maintaining perfect attendance throughout the academic year 2024–2025. \n• SanDisk Hackathon Finalist (Top 50/1000+): Shortlisted among the top 50 teams out of 1000+ teams, demonstrating strong problem-solving \nand collaboration skills.                                                                                                                                                                                                                     \n \nSKILLS \nLanguages: Java, C++, C, Python, JavaScript, TypeScript, R, SQL, HTML, CSS \nTechnologies/Frameworks: React.js, Next.js, Node.js, Express.js, Django, FastAPI , TensorFlow, Pandas, NumPy \nDatabases: MongoDB, PostgreSQL, MySQL, Firebase, Qdrant, ChromaDB \nCloud: AWS",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 49,
+                  "to": 59
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "a270e430-4c90-48a7-a22e-44a40871350c"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "Where is Ollama mentioned?"
+      },
+      {
+        "role": "assistant",
+        "content": "No context documents are selected. Please toggle at least one document on in the sidebar to provide context.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "Where is Ollama mentioned?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is mentioned under the Software Developer Intern experience in the context, where it is integrated with other tools like Docker, Continue, and Cline on NVIDIA AGX Xavier.",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "Mohammed Sofiyan \n+91 9032007604 ◇ msofiyan0077@gmail.com ◇ LinkedIn ◇ GitHub ◇ CodeChef ◇ LeetCode \n \nEDUCATION \n \nVellore Institute Of Technology Chennai                                                                                                                                                  Aug 2023 – Present \nB. Tech Computer Science and Engineering                                                                                                                                                                                               CGPA: 8.71 \nCoursework: Operating Systems, Computer Networks, Data Structures and Algorithms, DBMS \nJEE Mains 2023                                                                                                                                                                                                                 Percentile: 94.6",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 1,
+                  "to": 9
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "c8df970b-2f21-4422-9331-9cb7d64e61a0"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "where is ollama mentioned"
+      },
+      {
+        "role": "assistant",
+        "content": "No context documents are selected. Please toggle at least one document on in the sidebar to provide context.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is used in the Software Developer Intern experience, where it is integrated with Docker, Continue, and Cline to establish a scalable, cost-free local agentic coding platform on NVIDIA AGX Xavier.",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "Grade: 12 CBSE  (Narayana High School)                                                                                                                                                                                           Percentage: 81.6 \nGrade: 10 ICSE (Siva Sivani Public School)                                                                                                                                                                                        Percentage: 95.3 \n \nEXPERIENCE \nInventrax                                                                                                                                                                                                                                   June 2026 \nSoftware Developer Intern                                                                                                                                                        Visakhapatnam, India",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 10,
+                  "to": 15
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "4cbae652-d6e6-43c8-9419-460268c0f5f8"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "No context documents are selected. Please toggle at least one document on in the sidebar to provide context.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is used in the Software Developer Intern experience, where it is integrated with Docker, Continue, and Cline to establish a scalable, cost-free local agentic coding platform on NVIDIA AGX Xavier.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "PROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over \ndocuments. Implemented a RAG pipeline with semantic chunking and vector search for accurate, context-aware responses, with source-grounded \nanswers via a chat interface. \n \nAI-Powered SaaS Platform [Github] \nEngineered a full-stack AI powered SaaS platform using Next.js, Prisma, and NeonDB, integrating Clerk based authentication and middleware for \nsecure, scalable user management. Implemented advanced media handling with Cloudinary, enabling image/video uploads, transformations, and \nAI-powered smart previews, enhancing content processing and user experience. \n \nSecure LMS with Payment Integration [Github] \nDesigned a scalable LMS using Node.js, Express.js, and MongoDB, with JWT authentication, modular middleware, and secure API design.",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 28,
+                  "to": 40
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "f6b17a6e-4250-4698-a075-f912e8bc18f9"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is used to establish a scalable, cost-free local agentic coding platform, along with Docker, Continue, and Cline, as part of deploying and optimizing open source LLMs on NVIDIA AGX Xavier.",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "PROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over \ndocuments. Implemented a RAG pipeline with semantic chunking and vector search for accurate, context-aware responses, with source-grounded \nanswers via a chat interface. \n \nAI-Powered SaaS Platform [Github] \nEngineered a full-stack AI powered SaaS platform using Next.js, Prisma, and NeonDB, integrating Clerk based authentication and middleware for \nsecure, scalable user management. Implemented advanced media handling with Cloudinary, enabling image/video uploads, transformations, and \nAI-powered smart previews, enhancing content processing and user experience. \n \nSecure LMS with Payment Integration [Github] \nDesigned a scalable LMS using Node.js, Express.js, and MongoDB, with JWT authentication, modular middleware, and secure API design.",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 28,
+                  "to": 40
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "f6b17a6e-4250-4698-a075-f912e8bc18f9"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "where is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is used to establish a scalable, cost-free local agentic coding platform, along with Docker, Continue, and Cline, as part of deploying and optimizing open source LLMs on NVIDIA AGX Xavier.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "is ollama used in resume"
+      },
+      {
+        "role": "assistant",
+        "content": "No context documents are selected. Please toggle at least one document on in the sidebar to provide context.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "is ollama used in resume"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Ollama is used in the resume, specifically in the \"Software Developer Intern\" section, where it is mentioned as being used to establish a scalable, cost-free local agentic coding platform.",
+        "documents": [
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "bb1c2352-8b94-498a-9357-f583b70c1f7a"
+          },
+          {
+            "pageContent": "PROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over \ndocuments. Implemented a RAG pipeline with semantic chunking and vector search for accurate, context-aware responses, with source-grounded \nanswers via a chat interface. \n \nAI-Powered SaaS Platform [Github] \nEngineered a full-stack AI powered SaaS platform using Next.js, Prisma, and NeonDB, integrating Clerk based authentication and middleware for \nsecure, scalable user management. Implemented advanced media handling with Cloudinary, enabling image/video uploads, transformations, and \nAI-powered smart previews, enhancing content processing and user experience. \n \nSecure LMS with Payment Integration [Github] \nDesigned a scalable LMS using Node.js, Express.js, and MongoDB, with JWT authentication, modular middleware, and secure API design.",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 28,
+                  "to": 40
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "f6b17a6e-4250-4698-a075-f912e8bc18f9"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783015899533-211489068-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "6106fbab-3ea1-47f1-a0f3-07a3bcc10dc3"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": "is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Ollama is used to establish a scalable, cost-free local agentic coding platform, along with Docker, Continue, and Cline, as part of deploying and optimizing open source LLMs on NVIDIA AGX Xavier. It is also used in the \"Software Developer Intern\" section of a resume.",
+        "documents": []
+      }
+    ],
+    "createdAt": "2026-07-02T18:11:51.465Z"
+  },
+  {
+    "id": "1783077091515",
+    "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8",
+    "title": "explain the resume",
+    "messages": [
+      {
+        "role": "user",
+        "content": "explain the resume"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know the answer because no relevant context was found in the uploaded documents. Please ensure you have uploaded documents containing this information and that they are indexed.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "what are the skills"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't know the answer because no relevant context was found in the uploaded documents. Please ensure you have uploaded documents containing this information and that they are indexed.",
+        "documents": []
+      },
+      {
+        "role": "user",
+        "content": "is ollama used"
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Ollama is used. According to the context, it was integrated with Docker, Continue, and Cline to establish a scalable, cost-free local agentic coding platform, while researching and deploying open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier.",
+        "documents": [
+          {
+            "pageContent": "• Lead, CodeChef VIT Chennai Chapter: Organized flagship hackathons, technical workshops, and hosted Abdul Bari, driving community \nengagement and technical learning. \n• 100% Attendance Award, University Day 2025: Recognized for maintaining perfect attendance throughout the academic year 2024–2025. \n• SanDisk Hackathon Finalist (Top 50/1000+): Shortlisted among the top 50 teams out of 1000+ teams, demonstrating strong problem-solving \nand collaboration skills.                                                                                                                                                                                                                     \n \nSKILLS \nLanguages: Java, C++, C, Python, JavaScript, TypeScript, R, SQL, HTML, CSS \nTechnologies/Frameworks: React.js, Next.js, Node.js, Express.js, Django, FastAPI , TensorFlow, Pandas, NumPy \nDatabases: MongoDB, PostgreSQL, MySQL, Firebase, Qdrant, ChromaDB \nCloud: AWS",
+            "metadata": {
+              "source": "uploads\\1783077495313-7170089-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 49,
+                  "to": 59
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "f26c30ae-b13b-47c8-b108-daa155276767"
+          },
+          {
+            "pageContent": "Software Developer Intern                                                                                                                                                        Visakhapatnam, India \n• Researched, deployed, and optimized diverse open source LLMs (Llama, Qwen, DeepSeek) on NVIDIA AGX Xavier, benchmarking inference \nperformance and integrating Ollama, Docker, Continue, Cline to establish a scalable, cost free local agentic coding platform. \n• Developed an enterprise grade code analysis platform integrating SonarQube, OWASP Dependency Check, and LLMs to automate static \napplication security testing (SAST), software composition analysis (SCA), and AI assisted code remediation across all major programming \nlanguages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025",
+            "metadata": {
+              "source": "uploads\\1783077495313-7170089-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 15,
+                  "to": 22
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "0031a658-33ff-4cf4-a0f8-7f6162675fc2"
+          },
+          {
+            "pageContent": "languages. \n \nSummer Research Intern                                                                                                                           May 2025 – August 2025 \nVellore Institute Of Technology Chennai                                                                                                                                                        Remote \n• Developed a deep learning based image enhancement system using Generative Adversarial Networks (GANs) to remove glare from eye images, \nimproving visual clarity and downstream analysis quality. Leveraged Python, TensorFlow, Keras, OpenCV, NumPy, Pandas, and Matplotlib to \ndesign, train, and evaluate models within an end to end research workflow. \n \nPROJECTS \nAI-RAG Intelligence Platform [Github] \nDeveloped a GenAI-powered assistant using Next.js, Node.js, Express.js, Qdrant, HuggingFace, and Groq, enabling natural language querying over",
+            "metadata": {
+              "source": "uploads\\1783077495313-7170089-Mohammed Sofiyan Resume.pdf",
+              "pdf": {
+                "version": "1.10.100",
+                "info": {
+                  "PDFFormatVersion": "1.7",
+                  "IsAcroFormPresent": false,
+                  "IsXFAPresent": false,
+                  "Author": "Un-named",
+                  "Creator": "Microsoft® Word 2021",
+                  "Producer": "Microsoft® Word 2021",
+                  "CreationDate": "D:20260702192208+05'30'",
+                  "ModDate": "D:20260702192208+05'30'"
+                },
+                "metadata": {
+                  "_metadata": {
+                    "pdf:producer": "Microsoft® Word 2021",
+                    "dc:creator": "Un-named",
+                    "xmp:creatortool": "Microsoft® Word 2021",
+                    "xmp:createdate": "2026-07-02T19:22:08+05:30",
+                    "xmp:modifydate": "2026-07-02T19:22:08+05:30",
+                    "xmpmm:documentid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B",
+                    "xmpmm:instanceid": "uuid:6A3D1C1D-C39A-469B-9797-A6BAE411D09B"
+                  }
+                },
+                "totalPages": 1
+              },
+              "loc": {
+                "pageNumber": 1,
+                "lines": {
+                  "from": 20,
+                  "to": 30
+                }
+              },
+              "filename": "Mohammed Sofiyan Resume.pdf",
+              "userId": "user_3FxTmlz41Ab4EvyV8rMjuhllwC8"
+            },
+            "id": "4e45096c-de15-4880-8e69-f4347d9df7b7"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-07-03T11:11:31.515Z"
+  }
+]

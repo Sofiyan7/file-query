@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  valkey:
+    image: valkey/valkey:latest
+    container_name: pdf-rag-valkey
+    restart: always
+    volumes:
+      - valkey_data:/data
+    ports:
+      - "6379:6379"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: pdf-rag-qdrant
+    restart: always
+    volumes:
+      - qdrant_data:/qdrant/storage
+    ports:
+      - "6333:6333"
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: pdf-rag-server
+    restart: always
+    environment:
+      - PORT=8000
+      - REDIS_HOST=valkey
+      - REDIS_PORT=6379
+      - QDRANT_URL=http://qdrant:6333
+      - HUGGINGFACEHUB_API_KEY=${HUGGINGFACEHUB_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - CLERK_SECRET_KEY=${CLERK_SECRET_KEY}
+    volumes:
+      - shared_uploads:/app/uploads
+    ports:
+      - "8000:8000"
+    depends_on:
+      - valkey
+      - qdrant
+
+  worker:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: pdf-rag-worker
+    command: node worker.js
+    restart: always
+    environment:
+      - REDIS_HOST=valkey
+      - REDIS_PORT=6379
+      - QDRANT_URL=http://qdrant:6333
+      - HUGGINGFACEHUB_API_KEY=${HUGGINGFACEHUB_API_KEY}
+      - CLERK_SECRET_KEY=${CLERK_SECRET_KEY}
+    volumes:
+      - shared_uploads:/app/uploads
+    depends_on:
+      - valkey
+      - qdrant
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+        - NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+        - NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    container_name: pdf-rag-client
+    restart: always
+    environment:
+      - PORT=3000
+      - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}
+      - NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+      - NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+volumes:
+  valkey_data:
+  qdrant_data:
+  shared_uploads:

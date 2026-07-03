@@ -128,3 +128,32 @@
     @apply font-sans;
   }
 }
+
+/* Hide Clerk dev warning and branding links specifically */
+.cl-internal-footer,
+.cl-footerMoreLink,
+.cl-footer,
+.cl-footerAction {
+  display: none !important;
+}
+
+/* Style Clerk input placeholders to be visible */
+.cl-formFieldInput::placeholder,
+.cl-input::placeholder,
+[class^="cl-"] input::placeholder,
+[class*=" cl-"] input::placeholder {
+  color: #a1a1aa !important; /* Zinc 400 */
+  opacity: 1 !important;
+}
+
+/* Style Clerk badge ("Last used") to be clearly visible */
+.cl-badge,
+.cl-badge--lastUsed,
+[class*="cl-badge"],
+[class*="badge"] {
+  background-color: rgba(99, 102, 241, 0.25) !important; /* Indigo 500/25 */
+  color: #a5b4fc !important; /* Indigo 300 */
+  border: 1px solid rgba(99, 102, 241, 0.35) !important;
+  font-weight: 600 !important;
+  font-size: 10px !important;
+}
