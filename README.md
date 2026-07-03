@@ -1,5 +1,24 @@
 # ResolveAI: High-Performance Isolated RAG Assistant
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Qdrant-FF5E13?style=for-the-badge" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/Valkey_/_Redis-CC0000?style=for-the-badge&logo=redis&logoColor=white" alt="Valkey/Redis" />
+</p>
+
+<p align="center">
+  <b>Cloud Integration Suite:</b> &nbsp;
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /> &nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20HF%20Spaces-FFD21E?style=flat-square" alt="Hugging Face Spaces" /> &nbsp;
+  <img src="https://img.shields.io/badge/Qdrant_Cloud-FF5E13?style=flat-square" alt="Qdrant Cloud" /> &nbsp;
+  <img src="https://img.shields.io/badge/Upstash_Redis-00E19B?style=flat-square" alt="Upstash" />
+</p>
+
+
 ResolveAI is a production-grade, containerized Retreival-Augmented Generation (RAG) platform that allows users to securely upload, index, and query context over large collections of PDF and DOCX files. 
 
 Built with a decoupled, asynchronous microservices architecture, ResolveAI handles document parsing and vector generation in a background job worker queue to keep the API server highly responsive and non-blocking under heavy load.
