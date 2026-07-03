@@ -77,6 +77,22 @@ function writeRegistry(data) {
     console.error("Error writing registry:", err);
   }
 }
+async function ensurePayloadIndexes(vectorStore) {
+  try {
+    await vectorStore.client.createPayloadIndex("langchainjs-testing", {
+      field_name: "metadata.userId",
+      field_schema: "keyword",
+    });
+    await vectorStore.client.createPayloadIndex("langchainjs-testing", {
+      field_name: "metadata.filename",
+      field_schema: "keyword",
+    });
+    console.log("[Qdrant] Payload indexes verified/created.");
+  } catch (err) {
+    // Already exists or creation ignored
+  }
+}
+
 console.log({
   host: process.env.REDIS_HOST,
   port: process.env.REDIS_PORT,
@@ -253,6 +269,8 @@ app.delete("/documents/:id", async (req, res) => {
           collectionName: "langchainjs-testing",
         },
       );
+
+      await ensurePayloadIndexes(vectorStore);
 
       // Delete points matching filename and userId
       await vectorStore.client.delete("langchainjs-testing", {
@@ -559,6 +577,8 @@ ${formattedHistory}
       },
     );
 
+    await ensurePayloadIndexes(vectorStore);
+
     // 4. History-Aware Retrieval (Rewrite the query based on past history and filter by active documents)
     const condensedQuery = await condenseQuery(chatHistory, userQuery, providerSettings);
 
@@ -767,6 +787,8 @@ app.delete("/api/users/:userId", async (req, res) => {
           collectionName: "langchainjs-testing",
         },
       );
+
+      await ensurePayloadIndexes(vectorStore);
 
       // Delete user vectors from Qdrant
       await vectorStore.client.delete("langchainjs-testing", {

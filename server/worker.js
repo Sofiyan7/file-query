@@ -119,6 +119,22 @@ const worker = new Worker(
       );
 
       console.log("Initialized Qdrant Vector Store");
+
+      // Verify and create payload indexes (critical for Qdrant Cloud)
+      try {
+        await vectorStore.client.createPayloadIndex("langchainjs-testing", {
+          field_name: "metadata.userId",
+          field_schema: "keyword",
+        });
+        await vectorStore.client.createPayloadIndex("langchainjs-testing", {
+          field_name: "metadata.filename",
+          field_schema: "keyword",
+        });
+        console.log("[Worker] Qdrant payload indexes verified/created.");
+      } catch (idxErr) {
+        // Ignore if index already exists
+      }
+
       await vectorStore.addDocuments(docs);
       console.log(`Successfully added ${docs.length} chunks to Qdrant`);
 
