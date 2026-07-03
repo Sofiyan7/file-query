@@ -64,11 +64,11 @@ export default function Home() {
             return indexedFiles;
           }
           // Find files that are newly indexed (changed from processing/failed to indexed)
-          const previouslyIndexed = documents.filter((d) => d.status === "indexed").map((d) => d.filename);
-          const newlyIndexed = indexedFiles.filter((name) => !previouslyIndexed.includes(name));
+          const previouslyIndexed = documents.filter((d: IDocument) => d.status === "indexed").map((d: IDocument) => d.filename);
+          const newlyIndexed = indexedFiles.filter((name: string) => !previouslyIndexed.includes(name));
 
           // Remove deleted files and append newly indexed files
-          const cleaned = prev.filter((name) => indexedFiles.includes(name));
+          const cleaned = prev.filter((name: string) => indexedFiles.includes(name));
           return Array.from(new Set([...cleaned, ...newlyIndexed]));
         });
       }
