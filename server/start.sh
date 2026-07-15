@@ -1,4 +1,7 @@
 #!/bin/sh
+# Start Redis server in the background
+redis-server --daemonize yes
+
 # Start background worker
 node worker.js &
 

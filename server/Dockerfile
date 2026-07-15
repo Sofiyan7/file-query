@@ -6,6 +6,9 @@ RUN corepack enable
 
 WORKDIR /app
 
+# Install redis server
+RUN apk add --no-cache redis
+
 # Copy dependency configs
 COPY package.json pnpm-lock.yaml ./
 

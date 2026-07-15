@@ -98,13 +98,19 @@ console.log({
   port: process.env.REDIS_PORT,
   hasPassword: !!process.env.REDIS_PASSWORD,
 });
+const redisConnection = {
+  host: process.env.REDIS_HOST || "127.0.0.1",
+  port: Number(process.env.REDIS_PORT || "6379"),
+};
+if (process.env.REDIS_PASSWORD) {
+  redisConnection.password = process.env.REDIS_PASSWORD;
+}
+if (process.env.REDIS_TLS === "true" || (process.env.REDIS_HOST && process.env.REDIS_HOST.includes("upstash"))) {
+  redisConnection.tls = {};
+}
+
 const queue = new Queue("file-upload-queue", {
-  connection: {
-    host: process.env.REDIS_HOST,
-    port: Number(process.env.REDIS_PORT),
-    password: process.env.REDIS_PASSWORD,
-    tls: {},
-  },
+  connection: redisConnection,
 });
 
 const storage = multer.diskStorage({

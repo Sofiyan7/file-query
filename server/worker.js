@@ -53,6 +53,17 @@ function updateDocStatus(docId, filename, status) {
   }
 }
 
+const redisConnection = {
+  host: process.env.REDIS_HOST || "127.0.0.1",
+  port: Number(process.env.REDIS_PORT || "6379"),
+};
+if (process.env.REDIS_PASSWORD) {
+  redisConnection.password = process.env.REDIS_PASSWORD;
+}
+if (process.env.REDIS_TLS === "true" || (process.env.REDIS_HOST && process.env.REDIS_HOST.includes("upstash"))) {
+  redisConnection.tls = {};
+}
+
 const worker = new Worker(
   "file-upload-queue",
   async (job) => {
@@ -148,11 +159,6 @@ const worker = new Worker(
   },
   {
     concurrency: 10,
-    connection: {
-      host: process.env.REDIS_HOST,
-      port: Number(process.env.REDIS_PORT),
-      password: process.env.REDIS_PASSWORD,
-      tls: {},
-    },
+    connection: redisConnection,
   },
 );
